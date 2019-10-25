@@ -227,9 +227,9 @@ class CommunicationsWindow(Window):
         ##############
         commLabel   = Label(self,text="This is the communications module.\nIt uses dummy data of people (staff and customers) from the Flying Travel Agency (Project 1) to create a list of contacts which can be messaged one way or another. This is a demonstration/exploration of the communications capabilities of Python.",wraplength=600,justify=LEFT)
         
-        emailImg    = PhotoImage(file=r"./img/icon_perDetails.png")
-        imImg       = PhotoImage(file=r"./img/icon_Products.png")
-        smsImg      = PhotoImage(file=r"./img/icon_perContacts.png")
+        emailImg    = PhotoImage(file=r"../img/icon_perDetails.png")
+        imImg       = PhotoImage(file=r"../img/icon_Products.png")
+        smsImg      = PhotoImage(file=r"../img/icon_perContacts.png")
         
         tabsFrame   = LabelFrame(self,text="Your Communications")
         tabs        = ttk.Notebook(tabsFrame)
