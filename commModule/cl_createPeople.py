@@ -1,5 +1,5 @@
 import sqlite3
-dbCon = sqlite3.connect("./travelAgency.db")
+dbCon = sqlite3.connect("../travelAgency.db")
 dbCur = dbCon.cursor()
 
 # Will import all people as lists of tuples.
